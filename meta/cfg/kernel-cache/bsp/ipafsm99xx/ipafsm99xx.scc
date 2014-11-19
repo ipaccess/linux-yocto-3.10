@@ -2,3 +2,4 @@ kconf hardware ipafsm99xx.cfg
 
 include features/profiling/profiling.scc
 include features/latencytop/latencytop.scc
+include features/aufs/aufs.scc
