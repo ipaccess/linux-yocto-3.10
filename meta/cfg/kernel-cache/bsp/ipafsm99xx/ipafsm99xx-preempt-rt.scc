@@ -1,0 +1,8 @@
+define KMACHINE ipafsm99xx
+define KTYPE preempt-rt
+define KARCH arm
+
+include ktypes/preempt-rt
+branch ipafsm99xx
+
+include ipafsm99xx.scc
